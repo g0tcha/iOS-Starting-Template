@@ -8,3 +8,4 @@
 
 // Network Errors
 "network_error_parsing" = "Error while parsing data response.";
+"network_error_error" = "A network error occured.";

@@ -8,3 +8,4 @@
 
 // Network Errors
 "network_error_parsing" = "Une erreur est survenue lors de l'extraction de la réponse.";
+"network_error_error" = "Une erreur réseau est survenue.";

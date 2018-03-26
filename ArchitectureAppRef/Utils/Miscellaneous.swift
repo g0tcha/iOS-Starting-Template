@@ -8,6 +8,8 @@
 
 import Foundation
 
+typealias JSONObject = NSDictionary
+
 func Localized(key: String, comment: String = "") -> String {
     return NSLocalizedString(key, comment: comment)
 }

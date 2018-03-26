@@ -1,3 +1,4 @@
 github "Alamofire/Alamofire" "4.7.0"
 github "onevcat/Kingfisher" "4.6.4"
+github "ReactiveX/RxSwift" "4.1.2"
 github "realm/realm-cocoa" "v3.3.0"

@@ -28,14 +28,8 @@ struct TodoListViewViewModel {
         return todoItems.count
     }
     
-    func title(forIndex index: Int) -> String {
-        let item = todoItems[index]
-        return item.title
-    }
-    
-    func isDone(forIndex index: Int) -> Bool {
-        let item = todoItems[index]
-        return item.isDone.value ?? false
+    func viewModel(for index: Int) -> TodoItemViewModel {
+        return TodoItemViewModel(todoItem: todoItems[index])
     }
     
     

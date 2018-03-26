@@ -10,13 +10,14 @@ import Foundation
 
 enum NetworkError: Error, CustomStringConvertible {
     case parsing
+    case error
     
     var description: String {
         switch self {
         case .parsing:
             return Localized(key: "network_error_parsing")
-        default:
-            return ""
+        case .error:
+            return Localized(key: "network_error_error")
         }
     }
 }
