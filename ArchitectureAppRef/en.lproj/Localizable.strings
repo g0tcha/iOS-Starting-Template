@@ -1,0 +1,10 @@
+/* 
+  Localizable.strings
+  ArchitectureAppRef
+
+  Created by vincent on 26/03/2018.
+  Copyright © 2018 Infostrates. All rights reserved.
+*/
+
+// Network Errors
+"network_error_parsing" = "Error while parsing data response."
